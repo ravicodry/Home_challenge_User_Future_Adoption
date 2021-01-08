@@ -5,11 +5,13 @@ adoption.
 
 1]  A  user  table  ( "takehome_users" )  with  data  on  12,000  users  who  signed  up  for  the
 product  in  the  last  two  years.   This  table  includes:
+
 ● name:  the  user's  name
 ● object_id:   the  user's  id
 ● email:  email  address
 ● creation_source:   how  their  account  was  created.  This  takes  on  one
 of  5  values:
+
 ○ PERSONAL_PROJECTS:  invited  to  join  another  user's
 personal  workspace
 ○ GUEST_INVITE:  invited  to  an  organization  as  a  guest
@@ -19,6 +21,7 @@ personal  workspace
 ○ SIGNUP_GOOGLE_AUTH:  signed  up  using  Google
 Authentication  (using  a  Google  email  account  for  their  login
 id)
+
 ● creation_time:  when  they  created  their  account
 ● last_session_creation_time:   unix  timestamp  of  last  login
 ● opted_in_to_mailing_list:  whether  they  have  opted  into  receiving
